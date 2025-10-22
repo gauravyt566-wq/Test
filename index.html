@@ -7,16 +7,6 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
   <link rel="stylesheet" href="osint.css">
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
-<script type="importmap">
-{
-  "imports": {
-    "react": "https://aistudiocdn.com/react@^19.2.0",
-    "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.0/",
-    "react/": "https://aistudiocdn.com/react@^19.2.0/"
-  }
-}
-</script>
-<link rel="stylesheet" href="/index.css">
 </head>
 <body>
   <!-- Watermark -->
@@ -132,7 +122,6 @@
           <select id="lookupType">
             <option value="mobile">Mobile Number Lookup</option>
             <option value="aadhaar">Aadhaar Number Lookup</option>
-            <option value="family-info">Family Info Lookup (Aadhaar)</option>
             <option value="gst">GST Number Lookup</option>
             <option value="tg">Telegram User Lookup</option>
             <option value="vehicle">Vehicle RC Lookup</option>
@@ -187,7 +176,7 @@
         
         <div class="instructions" id="mainInstructions">
           <i class="fas fa-info-circle"></i>
-          Mobile: 10-digit | Aadhaar/Family: 12-digit | GST: 15-char | Telegram: User/ID | Vehicle RC: 10-15 char | IFSC: 11-char
+          Mobile: 10-digit number | Aadhaar: 12-digit number | GST: 15-char alphanumeric | Telegram: User/ID | Vehicle RC: 10-15 char alphanumeric | IFSC: 11-char alphanumeric
         </div>
       </div>
       
@@ -263,6 +252,5 @@
   </div>
 
   <script src="osint.js"></script>
-<script type="module" src="/index.tsx"></script>
 </body>
-</html>
+                </html>
