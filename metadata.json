@@ -1,0 +1,5 @@
+{
+  "name": "OSINT Intelligence Lookup Tool",
+  "description": "An advanced OSINT (Open-Source Intelligence) tool for performing lookups on various identifiers like mobile numbers, Aadhaar numbers, and more. It includes features like bulk search, data export, and a secure PIN-protected interface.",
+  "requestFramePermissions": []
+}
